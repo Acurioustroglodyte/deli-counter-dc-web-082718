@@ -9,3 +9,8 @@ def line(arr)
     puts output
   end
 end
+
+def take_a_number(line, person)
+  if line.size == 0
+    line.push(person)
+end
