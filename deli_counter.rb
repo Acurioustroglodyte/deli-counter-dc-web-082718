@@ -6,7 +6,7 @@ def line(arr)
   else
     puts "The line is currently:"
     arr.each do|i|
-      puts " #{arr.index(i)}. #{i}"
+      print" #{arr.index(i)}. #{i}"
     end
   end
 end
