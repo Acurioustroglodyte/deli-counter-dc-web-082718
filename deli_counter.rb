@@ -1,12 +1,13 @@
 # Write your code here.
 
 def line(arr)
+  output = []
   if arr.size == 0
     puts "The line is currently empty."
   else
     puts "The line is currently:"
     arr.each do|i|
-      print" #{arr.index(i)}. #{i}"
+      output[i] = " #{arr.index(i)}. #{i}"
     end
   end
 end
