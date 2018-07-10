@@ -10,6 +10,7 @@ def line(arr)
       output[i] = " #{arr.index(i)}. #{i}"
     end
   end
+  return output
 end
 
 def take_a_number(line, name)
