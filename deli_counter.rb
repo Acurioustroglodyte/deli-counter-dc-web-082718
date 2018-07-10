@@ -13,5 +13,6 @@ end
 def take_a_number(line, person)
   if line.size == 0
     line.push(person)
+    puts "Welcome, #{person}. You are number 1 in line."
   end
 end
