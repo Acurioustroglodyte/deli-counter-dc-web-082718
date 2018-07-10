@@ -16,5 +16,6 @@ def take_a_number(line, person)
     puts "Welcome, #{person}. You are number 1 in line."
   elsif line.size > 0
     line.push(person)
+    puts "Welcome, #{person}. You are number #{line.size} in line."
   end
 end
